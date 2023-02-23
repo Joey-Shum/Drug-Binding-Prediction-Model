@@ -9,7 +9,7 @@ I joined Scotiabank's data hackathon one month ago, where we were asked to predi
 The model predicts each protein residue as 'drug binding' or 'non-drug binding'.
 
 ## How I built it
-Different models such as XGboost, Logistics Regression, Random Forest, SVM, and GBT were tested before choosing a final model.  Models were chosen based on the ROC-AUC and PR-AUC scores.  Data normalization and cross validation was also used.
+Different models such as XGboost, Logistics Regression, Random Forest, SVM, and GBT were tested before choosing a final model.  Models were chosen based on the ROC-AUC and PR-AUC scores.  Data normalization and cross validation was also used.  SHAP is used to yield the variable importance plot.
 
 ## Challenges I ran into
 There is a high imbalance in the given training dataset.  479912 were False and 17254 were True.  Resampling techniques are used, including oversampling, undersampling, SMOTE, and random stratified sampling.  Hyper parameter tuning was used to find the best parameters for the model.   The best model used the RandomForestClassifier with 400 n_estimators, 2 min_samples_split, 1 min_samples_leaf, with data normalization and undersampling.
