@@ -16,3 +16,7 @@ There is a high imbalance in the given training dataset.  479912 were False and 
 
 ## Accomplishments that I am proud of and what I learned
 This is my second data hackathon so there were lots to learn.  Using the list of feedback I got from my previous data hackathon, I first focused on fixing my mistakes such as data leakage, then researched into how I could further improve my model (e.g. hyper parameter tuning).  The final model has a ROC-AUC score of 0.78449 and a PR-AUC score of 0.45471.
+
+<img width="628" alt="ROC-AUC and PR-AUC scores" src="https://user-images.githubusercontent.com/35803959/221044626-5fe3cf1c-0a0e-4638-8c54-ae6ed9182249.png">
+
+![variable_importance](https://user-images.githubusercontent.com/35803959/221044730-da3fd2da-ae6c-474a-a7ad-4e11531b7167.png)
